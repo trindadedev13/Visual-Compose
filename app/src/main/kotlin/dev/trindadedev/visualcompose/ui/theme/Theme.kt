@@ -1,4 +1,4 @@
-package dev.trindadedev.template.ui.theme
+package dev.trindadedev.visualcompose.ui.theme
 
 import android.app.Activity
 import android.os.Build
@@ -16,7 +16,7 @@ import androidx.compose.ui.platform.LocalView
 import androidx.core.view.WindowCompat
 
 @Composable
-fun TemplateTheme(
+fun VisualComposeTheme(
   darkTheme: Boolean = isSystemInDarkTheme(),
   highContrastDarkTheme: Boolean = false,
   dynamicColor: Boolean = true,

@@ -1,9 +1,9 @@
-import dev.trindadedev.template.build.BuildConfig
-import dev.trindadedev.template.build.VersionUtils
+import dev.trindadedev.visualcompose.build.BuildConfig
+import dev.trindadedev.visualcompose.build.VersionUtils
 
 plugins {
-  alias(libs.plugins.template.application)
-  alias(libs.plugins.template.compose)
+  alias(libs.plugins.visualcompose.application)
+  alias(libs.plugins.visualcompose.compose)
   alias(libs.plugins.kotlin.serialization)
 }
 

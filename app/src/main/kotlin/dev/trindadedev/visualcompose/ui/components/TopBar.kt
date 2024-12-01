@@ -1,4 +1,4 @@
-package dev.trindadedev.template.ui.components
+package dev.trindadedev.visualcompose.ui.components
 
 import androidx.compose.foundation.layout.RowScope
 import androidx.compose.material3.*

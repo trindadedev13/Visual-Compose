@@ -1,4 +1,4 @@
-package dev.trindadedev.template.ui.screens.home
+package dev.trindadedev.visualcompose.ui.screens.home
 
 import androidx.compose.foundation.*
 import androidx.compose.foundation.layout.*
@@ -9,8 +9,8 @@ import androidx.compose.ui.input.nestedscroll.*
 import androidx.compose.ui.layout.*
 import androidx.compose.ui.res.*
 
-import dev.trindadedev.template.Strings
-import dev.trindadedev.template.ui.components.TopBar
+import dev.trindadedev.visualcompose.Strings
+import dev.trindadedev.visualcompose.ui.components.TopBar
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

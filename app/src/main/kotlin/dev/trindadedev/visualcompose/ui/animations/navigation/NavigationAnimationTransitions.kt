@@ -1,4 +1,4 @@
-package dev.trindadedev.template.ui.animations.navigation
+package dev.trindadedev.visualcompose.ui.animations.navigation
 
 import soup.compose.material.motion.animation.materialSharedAxisYIn
 import soup.compose.material.motion.animation.materialSharedAxisYOut

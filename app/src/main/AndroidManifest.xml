@@ -11,9 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher" 
         android:label="@string/app_name" 
         android:supportsRtl="true" 
-        android:theme="@style/Theme.Template">
+        android:theme="@style/Theme.VisualCompose">
         <activity 
-            android:name="dev.trindadedev.template.ui.activities.MainActivity" 
+            android:name="dev.trindadedev.visualcompose.ui.activities.MainActivity" 
             android:exported="true">
             <intent-filter>
                 <action 

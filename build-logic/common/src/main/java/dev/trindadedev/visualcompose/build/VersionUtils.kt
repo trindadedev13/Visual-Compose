@@ -1,4 +1,4 @@
-package dev.trindadedev.template.build
+package dev.trindadedev.visualcompose.build
 
 @SuppressWarnings("unused")
 object VersionUtils {

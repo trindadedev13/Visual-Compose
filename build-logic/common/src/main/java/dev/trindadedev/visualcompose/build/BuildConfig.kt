@@ -1,8 +1,8 @@
-package dev.trindadedev.template.build
+package dev.trindadedev.visualcompose.build
 
 @SuppressWarnings("unused")
 object BuildConfig {
-  const val packageName = "dev.trindadedev.template"
+  const val packageName = "dev.trindadedev.visualcompose"
 
   const val compileSdk = 35
   const val buildTools = "35.0.0"

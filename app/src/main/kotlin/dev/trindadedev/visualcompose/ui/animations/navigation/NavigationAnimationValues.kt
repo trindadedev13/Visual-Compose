@@ -1,4 +1,4 @@
-package dev.trindadedev.template.ui.animations.navigation
+package dev.trindadedev.visualcompose.ui.animations.navigation
 
 /*
  * values used in NavigationAnimationTransitions

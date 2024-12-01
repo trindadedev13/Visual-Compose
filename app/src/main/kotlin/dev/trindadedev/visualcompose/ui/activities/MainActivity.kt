@@ -1,4 +1,4 @@
-package dev.trindadedev.template.ui.activities
+package dev.trindadedev.visualcompose.ui.activities
 
 import android.os.Bundle
 
@@ -13,9 +13,9 @@ import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.Modifier
 import androidx.navigation.compose.rememberNavController
 
-import dev.trindadedev.template.navigation.MainNavHost
-import dev.trindadedev.template.platform.LocalMainNavController
-import dev.trindadedev.template.ui.theme.TemplateTheme
+import dev.trindadedev.visualcompose.navigation.MainNavHost
+import dev.trindadedev.visualcompose.platform.LocalMainNavController
+import dev.trindadedev.visualcompose.ui.theme.VisualComposeTheme
 
 class MainActivity : ComponentActivity() {
 
@@ -23,7 +23,7 @@ class MainActivity : ComponentActivity() {
     enableEdgeToEdge()
     super.onCreate(savedInstanceState)
     setContent {
-      TemplateTheme {
+      VisualComposeTheme {
         Surface(
           modifier = Modifier.fillMaxSize(), 
           color = MaterialTheme.colorScheme.background

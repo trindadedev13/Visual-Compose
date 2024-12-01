@@ -1,4 +1,4 @@
-package dev.trindadedev.template.navigation
+package dev.trindadedev.visualcompose.navigation
 
 import android.util.Log
 
@@ -7,10 +7,10 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.toRoute
 
-import dev.trindadedev.template.navigation.routes.HomeRoute
-import dev.trindadedev.template.platform.LocalMainNavController
-import dev.trindadedev.template.ui.animations.navigation.NavigationAnimationTransitions
-import dev.trindadedev.template.ui.screens.home.HomeScreen
+import dev.trindadedev.visualcompose.navigation.routes.HomeRoute
+import dev.trindadedev.visualcompose.platform.LocalMainNavController
+import dev.trindadedev.visualcompose.ui.animations.navigation.NavigationAnimationTransitions
+import dev.trindadedev.visualcompose.ui.screens.home.HomeScreen
 
 import kotlin.reflect.typeOf
 

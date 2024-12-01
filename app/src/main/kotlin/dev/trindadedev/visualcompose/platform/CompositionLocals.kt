@@ -1,4 +1,4 @@
-package dev.trindadedev.template.platform
+package dev.trindadedev.visualcompose.platform
 
 import androidx.compose.runtime.compositionLocalOf
 import androidx.navigation.NavHostController

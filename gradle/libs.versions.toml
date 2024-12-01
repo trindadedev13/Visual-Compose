@@ -38,9 +38,9 @@ kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 # Compose
 compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 
-template-application = { id = "template.application", version = "unspecified" }
-template-library = { id = "template.library", version = "unspecified" }
-template-compose = { id = "template.compose", version = "unspecified" }
+visualcompose-application = { id = "visualcompose.application", version = "unspecified" }
+visualcompose-library = { id = "visualcompose.library", version = "unspecified" }
+visualcompose-compose = { id = "visualcompose.compose", version = "unspecified" }
 
 [libraries]
 

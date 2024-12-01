@@ -18,6 +18,6 @@ dependencyResolutionManagement {
   }
 }
 
-rootProject.name = "Android-Compose-Template"
+rootProject.name = "Visual-Compose"
 
 include(":app")
