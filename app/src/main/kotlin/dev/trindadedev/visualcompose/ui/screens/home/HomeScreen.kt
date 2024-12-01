@@ -11,6 +11,7 @@ import androidx.compose.ui.res.*
 
 import dev.trindadedev.visualcompose.Strings
 import dev.trindadedev.visualcompose.ui.components.TopBar
+import dev.trindadedev.visualcompose.ui.components.editor.component.ComponentPane
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -32,7 +33,7 @@ fun HomeScreen() {
         .padding(innerPadding)
         .verticalScroll(scrollState)
     ) {
-      
+      ComponentPane()
     }
   }
 }
