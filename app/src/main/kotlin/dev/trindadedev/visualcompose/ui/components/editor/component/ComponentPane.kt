@@ -7,10 +7,12 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.background
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.draw.clip
 
 import dev.trindadedev.visualcompose.ui.components.editor.component.impl.Component
 import dev.trindadedev.visualcompose.ui.components.editor.component.impl.ComponentType
@@ -20,7 +22,7 @@ import dev.trindadedev.visualcompose.ui.components.editor.component.impl.Compone
 import dev.trindadedev.visualcompose.ui.components.editor.component.impl.ComponentComposableCreator.createComposable
 
 @Composable
-fun ComponentPane() {
+fun ComponentPane(modifier: Modifier = Modifier) {
   var isShowEditAttributeDialog by remember {
     mutableStateOf(false)
   }
@@ -48,7 +50,10 @@ fun ComponentPane() {
     )
   }
   
-  Frame(modifier = Modifier.padding(10.dp)){
+  Frame(
+    modifier = modifier
+      .clip(RoundedCornerShape(10.dp))
+  ) {
     val parent = Component()
     parent.category = ComponentCategory.Layout
     parent.type = ComponentType.Column

@@ -18,8 +18,6 @@ class Component {
   var attributes by mutableStateOf(Attributes())
   var textAttributes by mutableStateOf(TextAttributes())
   
-  var displayName by mutableStateOf(type.toString())
-  
   var childs = mutableStateListOf<Component>()
   
   class Attributes {

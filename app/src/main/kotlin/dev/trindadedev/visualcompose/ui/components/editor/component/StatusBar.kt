@@ -17,12 +17,14 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 @Composable
-fun StatusBar() {
+fun StatusBar(
+  modifier: Modifier = Modifier
+    .fillMaxWidth()
+    .height(24.dp)
+    .background(MaterialTheme.colorScheme.primary)
+) {
   Box(
-    modifier = Modifier
-      .fillMaxWidth()
-      .height(24.dp)
-      .background(MaterialTheme.colorScheme.primary),
+    modifier = modifier,
     contentAlignment = Alignment.Center
   ) {
     Row(

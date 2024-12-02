@@ -15,12 +15,14 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 @Composable
-fun Toolbar() {
+fun Toolbar(
+  modifier: Modifier = Modifier
+    .fillMaxWidth()
+    .height(56.dp)
+    .background(MaterialTheme.colorScheme.primary)
+) {
   Box(
-    modifier = Modifier
-      .fillMaxWidth()
-      .height(56.dp)
-      .background(MaterialTheme.colorScheme.primary),
+    modifier = modifier,
     contentAlignment = Alignment.CenterStart
   ) {
     Text(

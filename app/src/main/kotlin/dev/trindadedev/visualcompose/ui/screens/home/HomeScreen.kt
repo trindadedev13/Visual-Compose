@@ -11,7 +11,7 @@ import androidx.compose.ui.res.*
 
 import dev.trindadedev.visualcompose.Strings
 import dev.trindadedev.visualcompose.ui.components.TopBar
-import dev.trindadedev.visualcompose.ui.components.editor.component.ComponentPane
+import dev.trindadedev.visualcompose.ui.components.editor.UIEditor
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -32,8 +32,9 @@ fun HomeScreen() {
       Modifier
         .padding(innerPadding)
         .verticalScroll(scrollState)
+        .fillMaxSize()
     ) {
-      ComponentPane()
+      UIEditor(modifier = Modifier.fillMaxSize())
     }
   }
 }

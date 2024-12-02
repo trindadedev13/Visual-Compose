@@ -14,15 +14,9 @@ fun Frame(
   modifier: Modifier = Modifier,
   content: @Composable () -> Unit
 ) {
-  Column(modifier = modifier) {
+  Column(modifier = modifier.background(MaterialTheme.colorScheme.surfaceContainerLowest)) {
     StatusBar()
     Toolbar()
-    Column(
-      modifier = Modifier
-        .fillMaxSize()
-        .background(MaterialTheme.colorScheme.surfaceContainerLowest)
-    ) {
-      content()
-    }
+    content()
   }
 }
