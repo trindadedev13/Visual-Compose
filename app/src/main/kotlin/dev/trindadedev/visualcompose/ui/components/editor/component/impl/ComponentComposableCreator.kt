@@ -24,9 +24,7 @@ object ComponentComposableCreator {
   }
   
   @Composable
-  fun createColumn(
-    component: Component
-  ) {
+  fun createColumn(component: Component) {
     Column(
       modifier = component.attributes.modifier.clickable {
         component.attributes.onClick?.invoke(component)
@@ -49,9 +47,7 @@ object ComponentComposableCreator {
   }
   
   @Composable
-  fun createButton(
-    component: Component
-  ) {
+  fun createButton(component: Component) {
     Button(
       modifier = component.attributes.modifier,
       onClick = {
