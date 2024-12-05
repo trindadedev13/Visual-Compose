@@ -54,7 +54,7 @@ class Component {
     childs.removeAt(index)
   }
   
-  fun getAt(index: Int) {
+  fun getChildAt(index: Int) {
     childs.get(index)
   }
 }
