@@ -54,23 +54,25 @@ fun ComponentPane(modifier: Modifier = Modifier) {
     modifier = modifier
       .clip(RoundedCornerShape(10.dp))
   ) {
-    val parent = Component()
-    parent.category = ComponentCategory.Layout
-    parent.type = ComponentType.Column
-    parent.attributes.modifier = Modifier.padding(10.dp)
+    // create root view
+    val root = Component()
+    root.category = ComponentCategory.Layout
+    root.type = ComponentType.Column
   
     val button = Component()
     button.category = ComponentCategory.Widget
     button.type = ComponentType.Button
     button.textAttributes.text = "Button"
+    button.attributes.modifier = Modifier.padding(10.dp)
   
     val text = Component()
     text.category = ComponentCategory.Widget
     text.type = ComponentType.Text
     text.textAttributes.text = "Text"
+    text.attributes.modifier = Modifier.padding(10.dp)
   
-    parent.addChilds(button, text)
+    root.addChilds(button, text)
     
-    createComposable(component = parent)
+    createComposable(component = root)
   }
 }
