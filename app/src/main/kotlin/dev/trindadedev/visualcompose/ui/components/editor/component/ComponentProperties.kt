@@ -12,6 +12,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.graphics.vector.ImageVector
 import dev.trindadedev.visualcompose.Strings
 import dev.trindadedev.visualcompose.ui.components.editor.component.impl.Component
+import dev.trindadedev.visualcompose.ui.components.editor.component.impl.ComponentClassInfoHandler
 
 @Composable
 fun ComponentProperties(component: Component) {

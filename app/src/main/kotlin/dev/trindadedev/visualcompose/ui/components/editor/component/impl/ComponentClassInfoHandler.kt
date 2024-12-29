@@ -1,6 +1,6 @@
 package dev.trindadedev.visualcompose.ui.components.editor.component.impl
 
-class ComponentClassInfoHandler(component: Component) {
+class ComponentClassInfoHandler(val component: Component) {
 
   fun classInfoHave(classInfo: String): Boolean =
     component.type.classInfo.contains(classInfo)
