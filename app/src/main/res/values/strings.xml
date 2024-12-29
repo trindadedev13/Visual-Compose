@@ -3,4 +3,10 @@
   <string name="app_name">VisualCompose</string>
   <string name="common_word_save">Save</string>
   <string name="common_word_cancel">Cancel</string>
+  
+  <!-- Properties -->
+  <string name="property_text">Text</string>
+  <string name="property_width">Width</string>
+  <string name="property_height">Height</string>
+  <!-- end -->
 </resources>

@@ -17,7 +17,7 @@ class Component {
   var category by mutableStateOf(ComponentCategory.Nothing)
   var attributes by mutableStateOf(Attributes())
   var textAttributes by mutableStateOf(TextAttributes())
-  
+
   var childs = mutableStateListOf<Component>()
   
   class Attributes {
